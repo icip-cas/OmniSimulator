@@ -1,0 +1,25 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local credentials (the example remains versioned)
+.env
+.env.*
+!.env.example
+
+# Local datasets and generation artifacts
+dataset/local/
+raw_user_data/
+outputs/
+*.log
+cusd_sft_dataset*.json
+
+# OS and editor metadata
+.DS_Store
+.idea/
+.vscode/

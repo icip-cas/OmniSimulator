@@ -1,0 +1,36 @@
+{
+  "_description": "Entirely data for demonstrating the input schema; not drawn from internal data or OmniBehavior.",
+  "users": [
+    {
+      "user_id": "user_001",
+      "user_profile": "喜欢烹饪视频。",
+      "action_history": [
+        {
+          "timestamp": "2025-11-01 18:00:00",
+          "type": "视频浏览",
+          "context": {
+            "caption": "家常番茄炒蛋的做法",
+            "duration": 45
+          },
+          "action": [
+            {"type": "watch", "play_duration": 45, "is_complete_play": true},
+            {"type": "like"},
+            {"type": "collect"}
+          ]
+        }
+      ],
+      "test_action": {
+        "timestamp": "2025-11-02 09:30:00",
+        "type": "视频浏览",
+        "context": {
+          "caption": "十分钟早餐教程",
+          "duration": 30
+        },
+        "action": [
+          {"type": "watch", "play_duration": 30, "is_complete_play": true},
+          {"type": "like"}
+        ]
+      }
+    }
+  ]
+}
