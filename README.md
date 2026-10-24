@@ -1,5 +1,6 @@
 # OmniSimulator
 
+Paper: https://arxiv.org/abs/2610.29472
 
 <p align="center">
   <img src="assets/OmniSimulator.png" width="95%" />
