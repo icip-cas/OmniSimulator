@@ -1,4 +1,4 @@
-# OmniSimulator
+# OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling
 
 Paper: https://arxiv.org/abs/2610.29472
 
